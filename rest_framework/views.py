@@ -102,6 +102,7 @@ def exception_handler(exc, context):
 
 
 class APIView(View):
+    # win bug
 
     # The following policies may be set at either globally, or per-view.
     renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES
